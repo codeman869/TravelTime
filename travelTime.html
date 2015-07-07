@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>travelTime</title>
+		<meta name="author" content="CODY DECKARD" />
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+		<!-- Date: 2014-12-02 -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	
+	<body onload="setupLegend()">
+	<script src="js/main.js">
+	
+	</script>
+
+	<div id="tooltip" class="hidden">
+		<p><strong><span id="county">USA</span> County</strong></p>
+		
+		<P>Commute Time: <span id="travel-time">24.5</span> mins</P>
+	</div>
+	
+	<div class="legend">
+		<P><center><strong>LEGEND</strong></center></P>
+		<P><span id="max">Legend Rendering</span>
+		<P><span id="avg">Legend Rendering</span>
+		<P><span id="min">Legend Rendering</span>
+		<svg id="legend-pop">
+			
+			
+		</svg>
+	</div>
+		<h6>GEO SHP files provided by <a href="http://www.census.gov/">US Census Bureau</a> 
+		<p>City Names / Locations / Populations provided by <a href="http://www.naturalearthdata.com">Natural Earth</a>
+		<p>Commute times provided by US Census Bureau 
+		<p><a href="http://quickfacts.census.gov/qfd/download_data.html">mean travel time to work, mins, workers age 16+</a></h6>
+	
+	
+
+	</body>
+</html>
+

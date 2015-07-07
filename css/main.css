@@ -1,0 +1,99 @@
+	.title-text {
+				
+				text-anchor:middle;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 30px;
+				fill: #FFF;
+				pointer-event:none;
+				
+				
+			}
+		
+			
+			.city {
+				
+				fill: #fff;
+				opacity: 0.4;
+				pointer-events:none;
+				
+			}
+			
+			path.county {
+				
+				stroke: #000;
+				stroke-width: .5px;
+				
+			}
+			
+			path.county:hover {
+				
+				fill: #fff;
+			}
+			
+			.place-label {
+				
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 10px;
+				fill: #FFF;
+				pointer-event:none;
+				text-anchor:start;
+				
+				
+				
+			}
+			
+			div.legend {
+				position:absolute;
+				width:auto;
+				height:auto;
+				padding:10px;
+				background-color:#d3d3d3;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+				box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+				pointer-events:none; 
+				margin: 0;
+				font-family: sans-serif;
+				font-size: 10px;
+				line-height: 15px;
+				color: black;
+				
+				
+			}
+			
+		
+			
+			
+			#tooltip {
+				position:absolute;
+				width:auto;
+				height:auto;
+				padding:10px;
+				background-color:black;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+				box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+				pointer-events:none; 
+				
+				
+			}
+			
+			#tooltip.hidden {
+				
+				display: none;
+			}
+			
+			#tooltip p {
+				margin: 0;
+				font-family: sans-serif;
+				font-size: 10px;
+				line-height: 15px;
+				color: white;
+				
+			}
